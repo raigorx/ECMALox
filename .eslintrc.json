@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": false,
+        "es6": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:functional/recommended",
+        "plugin:regexp/recommended",
+        "plugin:promise/recommended",
+        "plugin:no-use-extend-native/recommended",
+        "plugin:@getify/proper-arrows/getify-says",
+        "plugin:fp/recommended",
+        "plugin:jsx-a11y/recommended",
+        "plugin:unicorn/recommended",
+        "plugin:sonarjs/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "react",
+        "functional",
+        "regexp",
+        "promise",
+        "no-use-extend-native",
+        "fp",
+        "unicorn",
+        "jsx-a11y",
+        "sonarjs"
+    ],
+    "rules": {
+        "functional/rule-name": "error"
+    }
+}
